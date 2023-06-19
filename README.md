@@ -1,11 +1,11 @@
-About r-integr
-==============
+About r-integr-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-integr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/peleplay/integr
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-integr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Generates a 'Graphviz' graph of the most significant 3-way interaction gains (i.e. conditional information gains) based on a provided discrete data frame. Various output formats are supported ('Graphviz', SVG, PNG, PDF, PS). For references, see the webpage of Aleks Jakulin <http://stat.columbia.edu/~jakulin/Int/>.
 
