@@ -1,6 +1,5 @@
 {% set version = '1.0.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-integr
@@ -13,8 +12,7 @@ source:
   sha256: 589bc16791a0f9f017d311c570196be25daab901b41dc9df8a82ccb692905b9c
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
